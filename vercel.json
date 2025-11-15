@@ -3,6 +3,6 @@
   "cleanUrls": false,
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
-    { "source": "/(.*)", "destination": "/build/client/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
