@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  --font-roboto: "Roboto", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+
+  /* NEW COLOR MAP */
+  --color-brand: var(--color-brand);
+  --color-mint-1: var(--color-mint-1);
+  --color-mint-2: var(--color-mint-2);
+  --color-mint-3: var(--color-mint-3);
+  --color-accent: var(--color-accent);
+  --color-light-green: var(--color-light-green);
+  --color-text-default: var(--color-text-default);
+  --color-light-dark: var(--color-light-dark);
+  --color-neutral-1: var(--color-neutral-1);
+}
+
+:root {
+  /* NEW COLOR VARIABLES */
+  --color-brand: #0F4E23;
+  --color-mint-1: #DFEDE3;
+  --color-mint-2: #E0F0E5;
+  --color-mint-3: #DAFFC2;
+  --color-accent: #F1F68E;
+  --color-light-green: #BFE5A6;
+  --color-text-default: #141414;
+  --color-light-dark: #686868;
+  --color-neutral-1: #F8F8F8;
+}
+

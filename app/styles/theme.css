@@ -1,0 +1,52 @@
+/* fonts first */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* then Tailwind import (or @tailwind directives) */
+@import 'tailwindcss';
+
+@theme inline {
+  /* fonts */
+  --font-roboto: 'Roboto', sans-serif;
+  --font-manrope: 'Manrope', sans-serif;
+
+  /* -------------------------
+     CUSTOM COLOR MAP
+     ------------------------- */
+  --color-brand: var(--color-brand);
+  --color-mint-1: var(--color-mint-1);
+  --color-mint-2: var(--color-mint-2);
+  --color-mint-3: var(--color-mint-3);
+  --color-accent: var(--color-accent);
+  --color-light-green: var(--color-light-green);
+  --color-text-default: var(--color-text-default);
+  --color-light-dark: var(--color-light-dark);
+  --color-neutral-1: var(--color-neutral-1);
+  --color-gold: var(--color-gold);
+
+  /* NEW BG COLOR */
+  --color-gray-bg: var(--color-gray-bg);
+
+  /* -------------------------
+     CUSTOM BREAKPOINTS
+     ------------------------- */
+  --breakpoint-3xl: 1920px; /* widescreen desktop */
+  --breakpoint-4xl: 2560px; /* 1440p / ultra-wide */
+}
+
+:root {
+  /* NEW COLOR VARIABLES */
+  --color-brand: #0f4e23;
+  --color-mint-1: #dfede3;
+  --color-mint-2: #e0f0e5;
+  --color-mint-3: #daffc2;
+  --color-accent: #f1f68e;
+  --color-light-green: #bfe5a6;
+  --color-text-default: #141414;
+  --color-light-dark: #686868;
+  --color-neutral-1: #f8f8f8;
+
+  /* NEW COLORS */
+  --color-gold: #E8AD00;
+  --color-gray-bg: #F2F2F2; /* ← added */
+}
